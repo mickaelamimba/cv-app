@@ -1,5 +1,4 @@
 import Profile from "../components/profile/profile";
-import axios from "axios";
 import AboutMe from "../components/description/aboutMe";
 import ContactInfo from "../components/description/contactInfo";
 import Experience from "../components/experience/experience";

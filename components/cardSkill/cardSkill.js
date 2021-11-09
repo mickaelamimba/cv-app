@@ -4,7 +4,7 @@ import frontEnd from '../../public/frontEnd.png';
 import backEnd from '../../public/backEnd.png'
 import Image from "next/image";
 const CardSkill = ({skill}) => {
-    console.log(skill)
+
 
     return (
 
