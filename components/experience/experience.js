@@ -31,8 +31,8 @@ const Experience = ({data}) => {
                 {data?.map((items)=>(
                     <Tab.Panel key={items.id}>
                         <div className="p-3">
-                            <h3 className="text-indigo-600 text-xl">{items.title}</h3>
-                            <p className="text-indigo-900">
+                            <h3 className="text-blue-600 text-xl">{items.title}</h3>
+                            <p className="text-blue-900">
                                 <span>{items.business}</span>
                             </p>
                             <div>

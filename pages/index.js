@@ -9,11 +9,13 @@ import {experience} from "../data/experience";
 import {summary} from "../data/summary";
 import {skill} from "../data/skill";
 import {quality} from "../data/quality";
+import {formation} from "../data/formation";
+import CardFormation from "../components/cardFormation/cardFormation";
 
 
 
 
-export default function Home({data,dataExperience,dataQuality,dataSkill }) {
+export default function Home({data,dataExperience,dataQuality,dataSkill,dataFormation }) {
 
   return (
     <div>
@@ -38,14 +40,25 @@ export default function Home({data,dataExperience,dataQuality,dataSkill }) {
             <Experience data={dataExperience}/>
         </div>
 
-        <Dividers/>
+        <Dividers title='COMPETENCES EN INFORMATIQUE'/>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-2">
             {dataSkill.map((data)=>{
-              return <CardSkill key={data.key} skill={data}/>
+              return <CardSkill key={data.id} skill={data}/>
             })
 
             }
         </div>
+        <Dividers title='FORMATION'/>
+        <nav className='sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-3'>
+
+                {dataFormation?.map((data)=>(
+                    <CardFormation key={data.id}{...data}/>
+                ))
+
+                }
+
+
+        </nav>
     </div>
   )
 }
@@ -54,6 +67,7 @@ export async function getStaticProps(){
 
     const dataExperience = experience
     const dataQuality = quality
+    const dataFormation = formation
 
     const dataSkill =  skill
     return{
@@ -61,7 +75,8 @@ export async function getStaticProps(){
             data,
             dataExperience,
             dataQuality,
-            dataSkill
+            dataSkill,
+            dataFormation
 
         }
     }

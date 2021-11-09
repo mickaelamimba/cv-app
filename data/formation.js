@@ -14,27 +14,27 @@ export const formation = [
         diploma:'Attestation individuelle de fin de formation Integrateur développeur'
     },
     {
-        id:2,
+        id:3,
         school:'Gendarmerie Nationale',
         place:'Cayenne 97300',
         year:'Novembre 2016',
         diploma:'Diplôme Gendarme adjoint volontaire'
     },
     {
-        id:3,
+        id:4,
         school:'Lycée Jean Marie Michotte',
         place:'Cayenne 97300',
         year:'Juin 2015',
         diploma:'BAC pro Systèmes Électroniques Numériques'
     },
     {
-        id:4,
+        id:5,
         school:'Lycée Jean Marie Michotte',
         place:'Cayenne 97300',
         year:'Juillet 2014',
         diploma:'BEP Systèmes Électroniques Numériques'},
     {
-        id:5,
+        id:6,
         school:'Collège Just Hyasine',
         place:'Macouria 97355',
         year:'Juin 2012',
