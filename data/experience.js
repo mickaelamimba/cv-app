@@ -3,11 +3,11 @@ export const experience =[
         id: 1,
         title:'Développeur web / web mobile IOS',
         business:'Studi digitale éducation (école)',
-        year:'Février 2021',
+        year:'Février 2022',
         items:[
             'Maquetter une application',
             'Réaliser une interface utilisateur web statique et adaptable',
-            'Développer une interface utilisateur web dynamique Février 2021',
+            'Développer une interface utilisateur web dynamique',
             'Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce',
              'Créer une base de données',
              'Développer les composants d’accès aux données',
