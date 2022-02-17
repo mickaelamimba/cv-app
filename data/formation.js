@@ -3,8 +3,8 @@ export const formation = [
         id:1,
         school:'Studi digital éducation',
         place:'École à distance',
-        year:'',
-        diploma:'Formation graduate développeur Web Mobile IOS (BTS en cours)'
+        year:'Février 2022',
+        diploma:'Formation graduate développeur Web Mobile IOS (BTS)'
     },
     {
         id:2,
